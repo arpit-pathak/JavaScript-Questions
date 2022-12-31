@@ -1,0 +1,27 @@
+<!-- 13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h). -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Of Triangle</title>
+</head>
+<body>
+    <h1>Area Of Triangle</h1>
+
+    <script>
+    let base = parseInt(prompt("Input value of Base", 0));
+    let height = parseInt(prompt("Input value of height", 0));
+
+    let areaOfTriangle = (0.5 * base * height);
+        
+    // output of console 
+    console.log(`Area of Triangle with base ${base} and height ${height} is = ${areaOfTriangle}`);
+
+    // output on browser 
+    alert(`Area of Triangle is ${areaOfTriangle}`);
+    </script>
+</body>
+</html>
+

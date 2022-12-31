@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of circle and circumference</title>
+  </head>
+  <body>
+    <p>
+      16. Get radius using prompt and calculate the area of a circle (area = pi
+      x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+    </p>
+  </body>
+  <script>
+    const pi = 3.14;
+    const radius = prompt("Enter Radius of Circle");
+    if (radius !== null) {
+      let area_of_circle = pi * radius * radius;
+      let circumference_of_circle = 2 * pi * radius;
+      alert(
+        `Area of Circle is = ${area_of_circle} 
+Circumferece of a Circle is = ${circumference_of_circle}`
+      );
+    } else {
+      alert("Enter Radius of Circle");
+    }
+  </script>
+</html>
